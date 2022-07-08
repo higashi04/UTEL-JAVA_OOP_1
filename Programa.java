@@ -1,10 +1,10 @@
-// import java.io.*;
 class Programa {
     public static void main(String[] args) {
-        Laptop.Modelo();
-        Laptop.Ram();
-        Laptop.Cores();
-        Laptop.TarjetaGrafica();
-        Laptop.HuellaDigital();
+        Laptop printableObject = new Laptop();
+        System.out.println(printableObject.Cores);
+        System.out.println(printableObject.HuellaDigital);
+        System.out.println(printableObject.Modelo);
+        System.out.println(printableObject.Ram);
+        System.out.println(printableObject.TarjetaGrafica);
     }
 }
